@@ -21,7 +21,11 @@
 
 6. Tampilan Informasi Stok/Katalog
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8cc577d8-349f-4a75-bb8f-2eb98fb102b4" />
+
+7. Tampilan Saat Memilih Buku
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c2959d23-5691-468c-9b73-46f99510ea04" />
+
+8.Tampilan Saat Memilih Metode Pembayaran
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e2fc860d-0f3a-4db3-abac-a9fd1f0a9955" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/105c0128-9976-4f8b-bf10-29b71ae46272" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d4e6e688-8bec-4a18-9385-6fbf09ee0c47" />
