@@ -14,15 +14,16 @@
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6733480a-4932-4dc5-9f3a-ce1a6c0ce89f" />
 
 4. Tampilan Jika Pasword Salah
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/82e2c2e5-1c4b-4ff6-9c9d-99dc545edd8d" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3610aee6-d9c5-45eb-97c2-223b0c5c56c1" />
 
-5. Tampilan Menu Dashboard
+
+6. Tampilan Menu Dashboard
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/050889d2-1e6a-419b-9903-64f46112adb9" />
 
-6. Tampilan Informasi Stok/Katalog
+7. Tampilan Informasi Stok/Katalog
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8cc577d8-349f-4a75-bb8f-2eb98fb102b4" />
 
-7. Tampilan Saat Memilih Buku
+8. Tampilan Saat Memilih Buku
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c2959d23-5691-468c-9b73-46f99510ea04" />
 
 8.Tampilan Saat Memilih Metode Pembayaran & Pesanan yang Berhasil Disimpan
