@@ -4,6 +4,9 @@
 ## Kelas: TI.24.A1
 ## UTS PEMROGRAMAN WEB 1
 
+# Folder Proyek
+<img width="366" height="1020" alt="file pemro web" src="https://github.com/user-attachments/assets/a4ca4a34-14ed-4e14-a7b1-ab19725e2c6a" />
+
 1. Tampilan Login
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c1232e7e-8513-41df-a83d-40700ccf81cd" />
 
