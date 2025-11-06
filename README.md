@@ -7,14 +7,16 @@
 1. Tampilan Login
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c1232e7e-8513-41df-a83d-40700ccf81cd" />
 
-2 Tampilan Lupa Password
+2 Tampilan Lupa Pasword
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0674fd9c-50e5-4d84-ba7f-d45661825886" />
 
 3. Tampilan Daftar Akun
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6733480a-4932-4dc5-9f3a-ce1a6c0ce89f" />
 
-4.
+4. Tampilan Jika Pasword Salah
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/82e2c2e5-1c4b-4ff6-9c9d-99dc545edd8d" />
+
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/01b56464-ff9a-4150-b50d-45ede5689f8d" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8cc577d8-349f-4a75-bb8f-2eb98fb102b4" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c2959d23-5691-468c-9b73-46f99510ea04" />
