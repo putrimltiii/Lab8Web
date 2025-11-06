@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tracking - Toko Buku</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg">
+  <main class="center-card" style="max-width:800px;">
+    <section class="card soft">
+      <header class="flex-space">
+        <h2>Tracking Pengiriman</h2>
+        <a href="dashboard.html" class="btn ghost">Back</a>
+      </header>
+
+      <div class="row">
+        <input id="doNumber" type="text" placeholder="Masukkan Nomor Delivery Order (ex: DO001)">
+        <button id="searchDo" class="btn primary">Cari</button>
+      </div>
+
+      <div id="trackingResult" class="hidden" style="margin-top:16px;">
+        <h3 id="trName"></h3>
+        <p id="trDetail" class="muted"></p>
+
+        <div class="progress-wrap">
+          <div id="progressBar" class="progress"></div>
+        </div>
+
+        <table class="table">
+          <tbody>
+            <tr><td>Ekspedisi</td><td id="trEkspedisi"></td></tr>
+            <tr><td>Tanggal Kirim</td><td id="trTanggal"></td></tr>
+            <tr><td>Jenis Paket</td><td id="trPaket"></td></tr>
+            <tr><td>Total Pembayaran</td><td id="trTotal"></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/tracking.js"></script>
+</body>
+</html>

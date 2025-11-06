@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>History Transaksi - Toko Buku</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg">
+  <main class="center-card" style="max-width:900px;">
+    <section class="card soft">
+      <header class="flex-space">
+        <h2>History Transaksi</h2>
+        <a href="dashboard.html" class="btn ghost">Kembali</a>
+      </header>
+
+      <table class="table" id="tabelHistory">
+        <thead>
+          <tr>
+            <th>ID Transaksi</th>
+            <th>Nama</th>
+            <th>Tanggal</th>
+            <th>Total</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+  <script>
+    const tabel = document.querySelector("#tabelHistory tbody");
+    const data = JSON.parse(localStorage.getItem("dataPengiriman")) || [];
+
+    function tampilkanHistory() {
+      tabel.innerHTML = "";
+      if (data.length === 0) {
+        tabel.innerHTML = "<tr><td colspan='5' style='text-align:center;color:#999;'>Belum ada transaksi</td></tr>";
+        return;
+      }
+
+      data.forEach(p => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${p.orderId}</td>
+          <td>${p.nama}</td>
+          <td>${p.tanggal}</td>
+          <td>Rp ${formatRupiah(p.total)}</td>
+          <td>${p.status}</td>
+        `;
+        tabel.appendChild(tr);
+      });
+    }
+
+    tampilkanHistory();
+  </script>
+</body>
+</html>

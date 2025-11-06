@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Login - Toko Buku</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg">
+  <main class="center-card">
+    <section class="card soft">
+      <h1 class="card-title">Login Akun</h1>
+
+      <form id="loginForm" class="form">
+        <label class="label">Email:
+          <input id="email" type="email" placeholder="email@contoh.com" required>
+        </label>
+        <label class="label">Password:
+          <div class="pw-row">
+            <input id="password" type="password" placeholder="password" required>
+            <button type="button" id="togglePw" class="icon-btn" aria-label="toggle password">👁️</button>
+          </div>
+        </label>
+
+        <div class="row">
+          <button id="loginBtn" type="submit" class="btn primary">Login</button>
+          <button id="openForgot" type="button" class="btn ghost">Lupa Password</button>
+          <button id="openRegister" type="button" class="btn ghost">Daftar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- Modal: Forgot -->
+  <div id="modalForgot" class="modal">
+    <div class="modal-card soft">
+      <h3>Lupa Password</h3>
+      <p>Masukkan email untuk reset (simulasi).</p>
+      <input id="forgotEmail" type="email" placeholder="email@contoh.com">
+      <div class="row" style="margin-top:12px;">
+        <button id="sendReset" class="btn primary">Kirim</button>
+        <button class="btn ghost close-modal">Tutup</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Register -->
+  <div id="modalRegister" class="modal">
+    <div class="modal-card soft">
+      <h3>Daftar Akun</h3>
+      <label class="label">Nama:
+        <input id="regNama" type="text" placeholder="Nama lengkap">
+      </label>
+      <label class="label">Email:
+        <input id="regEmail" type="email" placeholder="email@contoh.com">
+      </label>
+      <label class="label">Password:
+        <input id="regPassword" type="password" placeholder="password">
+      </label>
+      <div class="row" style="margin-top:12px;">
+        <button id="registerBtn" class="btn primary">Daftar</button>
+        <button class="btn ghost close-modal">Batal</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>

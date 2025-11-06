@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Checkout - Toko Buku</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg">
+  <main class="center-card" style="max-width:1000px;">
+    <section class="card soft">
+      <header class="flex-space">
+        <h2>Form Pemesanan</h2>
+        <a href="dashboard.html" class="btn ghost">Kembali</a>
+      </header>
+
+      <div class="grid-2">
+        <div>
+          <h3>Data Pemesan</h3>
+          <label class="label">Nama:
+            <input id="custNama" type="text" required>
+          </label>
+          <label class="label">Alamat:
+            <input id="custAlamat" type="text">
+          </label>
+          <label class="label">No. Telp:
+            <input id="custTelp" type="text">
+          </label>
+        </div>
+
+        <div>
+          <h3>Pilih Buku</h3>
+          <select id="bookSelect"></select>
+          <label class="label">Jumlah:
+            <input id="qty" type="number" min="1" value="1">
+          </label>
+          <div style="margin-top:8px;">
+            <button id="addToCart" class="btn primary">Tambah ke Pesanan</button>
+          </div>
+        </div>
+      </div>
+
+      <h3>Keranjang</h3>
+      <table class="table" id="cartTable">
+        <thead>
+          <tr><th>Judul</th><th>Qty</th><th>Harga</th><th>Subtotal</th><th>Aksi</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <div class="flex-space" style="margin-top:12px;">
+        <div>
+          <label class="label">Metode Pembayaran:
+            <select id="payMethod">
+              <option value="Transfer">Transfer</option>
+              <option value="COD">COD</option>
+            </select>
+          </label>
+        </div>
+        <div>
+          <p>Total: Rp <span id="totalAmount">0</span></p>
+          <button id="placeOrder" class="btn primary">Place Order</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/checkout.js"></script>
+</body>
+</html>
+

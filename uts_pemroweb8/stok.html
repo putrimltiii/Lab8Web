@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Katalog Buku - Toko Buku</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg">
+  <main class="center-card" style="max-width:1000px;">
+    <section class="card soft">
+      <header class="flex-space">
+        <h2>Daftar Buku</h2>
+        <a href="dashboard.html" class="btn ghost">Kembali</a>
+      </header>
+
+      <!-- Grid Katalog Buku -->
+      <div id="katalogGrid" class="book-grid"></div>
+
+      <h3 style="margin-top:24px;">Tambah Buku Baru</h3>
+      <div class="add-book-row">
+        <input id="newJudul" type="text" placeholder="Judul Buku">
+        <input id="newStok" type="number" placeholder="Stok">
+        <input id="newHarga" type="number" placeholder="Harga">
+        <input id="newImg" type="text" placeholder="URL Gambar Buku">
+        <button id="addBookBtn" class="btn primary">Tambah Buku</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/stok.js"></script>
+</body>
+</html>
