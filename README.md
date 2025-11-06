@@ -37,7 +37,7 @@
 11. Riwayat Pengiriman
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6f809d2d-7b21-4fd8-a993-777a72d8a069" />
 
-12.
+12. Tampilan Jika Mau Logout
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d4931faf-d300-4cad-8ef6-91fe5ae893be" />
 
 
