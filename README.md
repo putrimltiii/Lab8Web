@@ -19,6 +19,7 @@
 5. Tampilan Menu Dashboard
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/050889d2-1e6a-419b-9903-64f46112adb9" />
 
+6. Tampilan Informasi Stok/Katalog
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8cc577d8-349f-4a75-bb8f-2eb98fb102b4" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c2959d23-5691-468c-9b73-46f99510ea04" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e2fc860d-0f3a-4db3-abac-a9fd1f0a9955" />
